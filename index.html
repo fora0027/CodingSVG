@@ -4,12 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding an SVG</title>
-    <link rel="stylesheet" href="http://fora0027.github.io/CodingSVG/css/styles.css">
+    <style>
+svg:hover .theWords{
+    transform:  translateY(-30px);
+    transition-duration: 4s;
+
+}
+.theWords{
+    transform: translateY(30px);
+    transition-duration: 4s;
+
+}
+.smallBubble{
+    transform: translateY(700px);
+    transition-duration: 0s;
+}
+svg:hover .smallBubble{
+    transform: translateY(-700px);
+    transition-duration: 6s;
+}
+.Bigbubble{
+    transform: translateY(700px);
+    transition-duration: 0s;
+}
+svg:hover .Bigbubble{
+    transform: translateY(-700px);
+    transition-duration: 8s;
+}
+.Logo{
+    transform: translateY(30px);
+    transition-duration: 4s;
+    opacity: 0.5;
+}
+svg:hover .Logo{
+    transform:  translateY(-250px);
+    transition-duration: 4s;
+    opacity: 0.5;
+}</style>
 </head>
 
 <body>
     <script src=""></script>
-    <div class="headerSVG">
+    <object class="headerSVG">
             <svg version="1.1" id="Beer_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1024 350" enable-background="new 0 0 1024 350" xml:space="preserve">
     <title>Ross Foran, Beer Header</title>
@@ -429,6 +465,6 @@
 		c0.9,0.7,1.4,1.1,1.9,1.5c-2.4-6.9-2.8-13.8,0.5-20.8c1.3,0.4,1.6,2.5,3.3,3.4C571.1,496,570.1,494.5,569.3,493z"/>
 </g>
 </svg>
-    </div>
+    </object>
 </body>
 </html>
