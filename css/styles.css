@@ -1,0 +1,36 @@
+svg:hover .theWords{
+    transform:  translateY(-30px);
+    transition-duration: 4s;
+
+}
+.theWords{
+    transform: translateY(30px);
+    transition-duration: 4s;
+
+}
+.smallBubble{
+    transform: translateY(700px);
+    transition-duration: 0s;
+}
+svg:hover .smallBubble{
+    transform: translateY(-700px);
+    transition-duration: 6s;
+}
+.Bigbubble{
+    transform: translateY(700px);
+    transition-duration: 0s;
+}
+svg:hover .Bigbubble{
+    transform: translateY(-700px);
+    transition-duration: 8s;
+}
+.Logo{
+    transform: translateY(30px);
+    transition-duration: 4s;
+    opacity: 0.5;
+}
+svg:hover .Logo{
+    transform:  translateY(-250px);
+    transition-duration: 4s;
+    opacity: 0.5;
+}
